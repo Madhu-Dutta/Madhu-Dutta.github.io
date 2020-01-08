@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madhu-Dutta/Madhu-Dutta.github.io.git"
+  },
+  "keywords": [
+    "html5",
+    "scss",
+    "js",
+    "responsive"
+  ],
+  "author": "Madhu Dutta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Madhu-Dutta/Madhu-Dutta.github.io/issues"
+  },
+  "homepage": "https://github.com/Madhu-Dutta/Madhu-Dutta.github.io#readme"
+}
