@@ -4,7 +4,7 @@
   "description": "Responsive Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Madhu-Dutta/Madhu-Dutta.github.io/issues"
   },
-  "homepage": "https://github.com/Madhu-Dutta/Madhu-Dutta.github.io#readme"
+  "homepage": "https://github.com/Madhu-Dutta/Madhu-Dutta.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
 }
