@@ -3,6 +3,7 @@ $secondary-color: #eece1a;
 $show-home-image: true;
 // Image url location should be inside dist folder as the main css folder is in same location
 $home-image: url(../img/background.jpg);
+$portrait-image: url(../img/portrait.jpg);
 $background-opacity: 0.9;
 
 @mixin easeOut {    
