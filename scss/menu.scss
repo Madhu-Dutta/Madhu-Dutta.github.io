@@ -1,4 +1,5 @@
 $portrait-image: url(../img/portrait.jpg);
+@import 'config';
 //menu button
 .menu-btn{
     position: absolute;
@@ -108,6 +109,27 @@ $portrait-image: url(../img/portrait.jpg);
             transform: translate3d(0, 0, 0);
         }        
     }
+    // NavLink display
+    .nav-link{
+        display: inline-block;
+        position: relative;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding: 1rem 0;
+        font-weight: 300;
+        color: #fff;
+        text-decoration: none;
+        @include easeOut;
 
+        &:hover{
+            color: $secondary-color;
+        }
+    }   
 }
 
+//Delay each item slide by 0.1sec
+@for $x from 1 to 4 {
+    .nav-item:nth-child(#{$x}){
+        transition-delay: $x * 0.1s;
+    }
+}
