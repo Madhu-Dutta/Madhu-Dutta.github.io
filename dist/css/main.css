@@ -150,6 +150,12 @@ main {
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'skill1 skill2 skill3';
   grid-template-columns: repeat(3, 1fr); }
+  .about-info .skill {
+    padding: 3rem;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
