@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/Madhu-Dutta/Madhu-Dutta.github.io#readme",
   "dependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   }
 }
